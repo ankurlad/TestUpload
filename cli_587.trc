@@ -1,0 +1,762 @@
+(140175472224832) [19-APR-2022 20:04:11:529] nlstddt_do_alter_trace: Version 21.4.0.0.0
+(140175472224832) [19-APR-2022 20:04:11:596] nlstddt_do_alter_trace: --- TRACE CONFIGURATION INFORMATION FOLLOWS ---
+(140175472224832) [19-APR-2022 20:04:11:596] nlstddt_do_alter_trace: New trace stream is /opt/oracle/instantclient_21_4/network/admin/cli_587.trc
+(140175472224832) [19-APR-2022 20:04:11:596] nlstddt_do_alter_trace: New trace level is 16
+(140175472224832) [19-APR-2022 20:04:11:596] nlstddt_do_alter_trace: --- TRACE CONFIGURATION INFORMATION ENDS ---
+(140175472224832) [19-APR-2022 20:04:11:596] nlstdtp_trace_pfile: --- PARAMETER SOURCE INFORMATION FOLLOWS ---
+(140175472224832) [19-APR-2022 20:04:11:659] nlstdts_trace_source: Attempted load of system pfile source /opt/oracle/instantclient_21_4/network/admin/sqlnet.ora
+(140175472224832) [19-APR-2022 20:04:11:659] nlstdts_trace_source: Parameter source loaded successfully
+(140175472224832) [19-APR-2022 20:04:11:659] nlstdts_trace_source: 
+(140175472224832) [19-APR-2022 20:04:11:659] nlstdts_trace_source: Attempted load of local pfile source /root/.sqlnet.ora
+(140175472224832) [19-APR-2022 20:04:11:659] nlstdts_trace_source: Parameter source was not loaded
+(140175472224832) [19-APR-2022 20:04:11:659] nlstdts_trace_source: 
+(140175472224832) [19-APR-2022 20:04:11:659] nlstdtp_trace_pfile:  -> PARAMETER TABLE LOAD RESULTS FOLLOW <-
+(140175472224832) [19-APR-2022 20:04:11:659] nlstdtp_trace_pfile: Successful parameter table load
+(140175472224832) [19-APR-2022 20:04:11:659] nlstddp_dump_ptable:  -> PARAMETER TABLE HAS THE FOLLOWING CONTENTS <-
+(140175472224832) [19-APR-2022 20:04:11:660] nlstddp_dump_ptable:   DIAG_ADR_ENABLED = OFF
+(140175472224832) [19-APR-2022 20:04:11:660] nlstddp_dump_ptable:   TRACE_UNIQUE_CLIENT = ON
+(140175472224832) [19-APR-2022 20:04:11:660] nlstddp_dump_ptable:   TRACE_LEVEL_CLIENT = 16
+(140175472224832) [19-APR-2022 20:04:11:660] nlstddp_dump_ptable:   TRACE_DIRECTORY_CLIENT = /opt/oracle/instantclient_21_4/network/admin
+(140175472224832) [19-APR-2022 20:04:11:660] nlstdtp_trace_pfile: --- PARAMETER SOURCE INFORMATION ENDS ---
+(140175472224832) [19-APR-2022 20:04:11:660] nlstddl_do_alter_log: --- LOG CONFIGURATION INFORMATION FOLLOWS ---
+(140175472224832) [19-APR-2022 20:04:11:660] nlstddl_do_alter_log: Log stream will be "/opt/oracle/instantclient_21_4/network/admin/sqlnet.log"
+(140175472224832) [19-APR-2022 20:04:11:660] nlstddl_do_alter_log: Log stream validation not requested
+(140175472224832) [19-APR-2022 20:04:11:660] nlstddl_do_alter_log: --- LOG CONFIGURATION INFORMATION ENDS ---
+
+(140175472224832) [19-APR-2022 20:04:11:660] nlstdipi: entry
+(140175472224832) [19-APR-2022 20:04:11:660] nlstdipi: exit
+(140175472224832) [19-APR-2022 20:04:11:660] nigini: entry
+(140175472224832) [19-APR-2022 20:04:11:660] nigini: Count in the NL global area is now 1
+(140175472224832) [19-APR-2022 20:04:11:660] nigini: Count in NI gbl area now: 1
+(140175472224832) [19-APR-2022 20:04:11:662] nrigbi: entry
+(140175472224832) [19-APR-2022 20:04:11:662] nrigbni: entry
+(140175472224832) [19-APR-2022 20:04:11:662] nrigbni: Unable to get data from navigation file tnsnav.ora
+(140175472224832) [19-APR-2022 20:04:11:662] nrigbni: exit
+(140175472224832) [19-APR-2022 20:04:11:662] nrigbi: exit
+(140175472224832) [19-APR-2022 20:04:11:705] nigini: exit
+(140175472224832) [19-APR-2022 20:04:12:299] nigsui: entry
+(140175472224832) [19-APR-2022 20:04:12:299] nigsui: Set User Interrupt: hdl=0, prc=0x2a886800, ctx=0x17d62a0.
+(140175472224832) [19-APR-2022 20:04:12:299] nigsui: exit (0)
+(140175472224832) [19-APR-2022 20:04:17:615] nigini: entry
+(140175472224832) [19-APR-2022 20:04:17:617] nigini: Count in the NL global area is now 3
+(140175472224832) [19-APR-2022 20:04:17:617] nigini: Count in NI gbl area now: 3
+(140175472224832) [19-APR-2022 20:04:17:617] nigini: exit
+(140175472224832) [19-APR-2022 20:04:17:617] niqname: Using nnfsn2a() to build connect descriptor for (possibly remote) database.
+(140175472224832) [19-APR-2022 20:04:17:617] nnfgiinit: entry
+(140175472224832) [19-APR-2022 20:04:17:656] nncpcin_maybe_init: default name server domain is [root]
+(140175472224832) [19-APR-2022 20:04:17:656] nnfgiinit: Installing read path
+(140175472224832) [19-APR-2022 20:04:17:656] nnfgsrsp: entry
+(140175472224832) [19-APR-2022 20:04:17:656] nnfgsrsp: Obtaining path parameter from names.directory_path or native_names.directory_path
+(140175472224832) [19-APR-2022 20:04:17:656] nnfgsrsp: Parmeter names.directory_path not found, setting path to compiled in default
+(140175472224832) [19-APR-2022 20:04:17:656] nnfgspd: entry
+(140175472224832) [19-APR-2022 20:04:17:656] nnfgspd:     setting element TNSNAMES
+(140175472224832) [19-APR-2022 20:04:17:656] nnfgspd:     setting element HOSTNAME
+(140175472224832) [19-APR-2022 20:04:17:657] nnfgspd:     setting element EZCONNECT
+(140175472224832) [19-APR-2022 20:04:17:657] nnfgspd:     setting element LDAP
+(140175472224832) [19-APR-2022 20:04:17:657] nnfgspd: Path set
+(140175472224832) [19-APR-2022 20:04:17:657] nnfgspd: exit
+(140175472224832) [19-APR-2022 20:04:17:657] nnfun2a: entry
+(140175472224832) [19-APR-2022 20:04:17:657] nlolgobj: entry
+(140175472224832) [19-APR-2022 20:04:17:657] nnfgrne: entry
+(140175472224832) [19-APR-2022 20:04:17:657] nnfgrne: Going though read path adapters
+(140175472224832) [19-APR-2022 20:04:17:657] nnfgrne: Switching to TNSNAMES adapter
+(140175472224832) [19-APR-2022 20:04:17:657] nnftboot: entry
+(140175472224832) [19-APR-2022 20:04:17:657] nlpaxini: entry
+(140175472224832) [19-APR-2022 20:04:17:657] nlpaxini: exit
+(140175472224832) [19-APR-2022 20:04:17:657] nnftmlf_make_local_addrfile: entry
+(140175472224832) [19-APR-2022 20:04:17:657] nnftmlf_make_local_addrfile: construction of local names file failed
+(140175472224832) [19-APR-2022 20:04:17:657] nnftmlf_make_local_addrfile: exit
+(140175472224832) [19-APR-2022 20:04:17:657] nlpaxini: entry
+(140175472224832) [19-APR-2022 20:04:17:657] nlpaxini: exit
+(140175472224832) [19-APR-2022 20:04:17:657] nnftmlf_make_system_addrfile: entry
+(140175472224832) [19-APR-2022 20:04:17:657] nnftmlf_make_system_addrfile: system names file is /opt/oracle/instantclient_21_4/network/admin/tnsnames.ora
+(140175472224832) [19-APR-2022 20:04:17:657] nnftmlf_make_system_addrfile: exit
+(140175472224832) [19-APR-2022 20:04:17:657] nnftboot: exit
+(140175472224832) [19-APR-2022 20:04:17:657] nnftrne: entry
+(140175472224832) [19-APR-2022 20:04:17:657] nnftrne: Original name: advdev7
+(140175472224832) [19-APR-2022 20:04:17:657] nnfttran: entry
+(140175472224832) [19-APR-2022 20:04:17:707] nncpdpt_dump_ptable: --- /opt/oracle/instantclient_21_4/network/admin/tnsnames.ora TABLE HAS THE FOLLOWING CONTENTS ---
+(140175472224832) [19-APR-2022 20:04:17:707] nncpdpt_dump_ptable: ADVPRD7 = (DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = 134.139.46.51)(PORT = 1521)) (CONNECT_DATA = (SERVER = DEDICATED) (SERVICE_NAME = ADVPRD7.campus.ad.csulb.edu)))
+(140175472224832) [19-APR-2022 20:04:17:707] nncpdpt_dump_ptable: ADVDEV7 = (DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = 134.139.46.52)(PORT = 1521)) (CONNECT_DATA = (SERVER = DEDICATED) (SERVICE_NAME = ADVDEV7.campus.ad.csulb.edu)))
+(140175472224832) [19-APR-2022 20:04:17:707] nncpdpt_dump_ptable: --- END /opt/oracle/instantclient_21_4/network/admin/tnsnames.ora TABLE ---
+(140175472224832) [19-APR-2022 20:04:17:707] nnfttran: exit
+(140175472224832) [19-APR-2022 20:04:17:707] nnftrne: Using tnsnames.ora address (DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = 134.139.46.52)(PORT = 1521)) (CONNECT_DATA = (SERVER = DEDICATED) (SERVICE_NAME = ADVDEV7.campus.ad.csulb.edu))) for name advdev7
+(140175472224832) [19-APR-2022 20:04:17:707] nnftrne: exit
+(140175472224832) [19-APR-2022 20:04:17:707] nnfgrne: exit
+(140175472224832) [19-APR-2022 20:04:17:707] nlolgserv: entry
+(140175472224832) [19-APR-2022 20:04:17:707] nnfggav: entry
+(140175472224832) [19-APR-2022 20:04:17:707] nnftgav: entry
+(140175472224832) [19-APR-2022 20:04:17:707] nnftgav: exit
+(140175472224832) [19-APR-2022 20:04:17:707] nnfgfrm: entry
+(140175472224832) [19-APR-2022 20:04:17:707] nnftfrm: entry
+(140175472224832) [19-APR-2022 20:04:17:707] nnftfrm: exit
+(140175472224832) [19-APR-2022 20:04:17:707] nnfgfrm: exit
+(140175472224832) [19-APR-2022 20:04:17:707] nlolgserv: exit
+(140175472224832) [19-APR-2022 20:04:17:707] nlolgobj: exit
+(140175472224832) [19-APR-2022 20:04:17:707] nlolfmem: entry
+(140175472224832) [19-APR-2022 20:04:17:707] nlolfmem: exit
+(140175472224832) [19-APR-2022 20:04:17:708] nigtrm: Count in the NI global area is now 2
+(140175472224832) [19-APR-2022 20:04:17:708] nigtrm: Count in the NL global area is now 2
+(140175472224832) [19-APR-2022 20:04:17:708] nigini: entry
+(140175472224832) [19-APR-2022 20:04:17:708] nigini: Count in the NL global area is now 3
+(140175472224832) [19-APR-2022 20:04:17:708] nigini: Count in NI gbl area now: 3
+(140175472224832) [19-APR-2022 20:04:17:708] nigini: exit
+(140175472224832) [19-APR-2022 20:04:17:708] niqname: Using nnfsn2a() to build connect descriptor for (possibly remote) database.
+(140175472224832) [19-APR-2022 20:04:17:708] nnfun2a: entry
+(140175472224832) [19-APR-2022 20:04:17:708] nlolgobj: entry
+(140175472224832) [19-APR-2022 20:04:17:708] nnfgrne: entry
+(140175472224832) [19-APR-2022 20:04:17:708] nnfgrne: Going though read path adapters
+(140175472224832) [19-APR-2022 20:04:17:708] nnfgrne: Switching to TNSNAMES adapter
+(140175472224832) [19-APR-2022 20:04:17:708] nnftrne: entry
+(140175472224832) [19-APR-2022 20:04:17:708] nnftrne: Original name: advdev7
+(140175472224832) [19-APR-2022 20:04:17:708] nnfttran: entry
+(140175472224832) [19-APR-2022 20:04:17:708] nncpdpt_dump_ptable: --- /opt/oracle/instantclient_21_4/network/admin/tnsnames.ora TABLE HAS THE FOLLOWING CONTENTS ---
+(140175472224832) [19-APR-2022 20:04:17:708] nncpdpt_dump_ptable: ADVPRD7 = (DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = 134.139.46.51)(PORT = 1521)) (CONNECT_DATA = (SERVER = DEDICATED) (SERVICE_NAME = ADVPRD7.campus.ad.csulb.edu)))
+(140175472224832) [19-APR-2022 20:04:17:708] nncpdpt_dump_ptable: ADVDEV7 = (DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = 134.139.46.52)(PORT = 1521)) (CONNECT_DATA = (SERVER = DEDICATED) (SERVICE_NAME = ADVDEV7.campus.ad.csulb.edu)))
+(140175472224832) [19-APR-2022 20:04:17:708] nncpdpt_dump_ptable: --- END /opt/oracle/instantclient_21_4/network/admin/tnsnames.ora TABLE ---
+(140175472224832) [19-APR-2022 20:04:17:708] nnfttran: exit
+(140175472224832) [19-APR-2022 20:04:17:708] nnftrne: Using tnsnames.ora address (DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = 134.139.46.52)(PORT = 1521)) (CONNECT_DATA = (SERVER = DEDICATED) (SERVICE_NAME = ADVDEV7.campus.ad.csulb.edu))) for name advdev7
+(140175472224832) [19-APR-2022 20:04:17:708] nnftrne: exit
+(140175472224832) [19-APR-2022 20:04:17:708] nnfgrne: exit
+(140175472224832) [19-APR-2022 20:04:17:708] nlolgserv: entry
+(140175472224832) [19-APR-2022 20:04:17:708] nnfggav: entry
+(140175472224832) [19-APR-2022 20:04:17:708] nnftgav: entry
+(140175472224832) [19-APR-2022 20:04:17:708] nnftgav: exit
+(140175472224832) [19-APR-2022 20:04:17:708] nnfgfrm: entry
+(140175472224832) [19-APR-2022 20:04:17:708] nnftfrm: entry
+(140175472224832) [19-APR-2022 20:04:17:708] nnftfrm: exit
+(140175472224832) [19-APR-2022 20:04:17:708] nnfgfrm: exit
+(140175472224832) [19-APR-2022 20:04:17:708] nlolgserv: exit
+(140175472224832) [19-APR-2022 20:04:17:708] nlolgobj: exit
+(140175472224832) [19-APR-2022 20:04:17:708] nlolfmem: entry
+(140175472224832) [19-APR-2022 20:04:17:708] nlolfmem: exit
+(140175472224832) [19-APR-2022 20:04:17:708] nigtrm: Count in the NI global area is now 2
+(140175472224832) [19-APR-2022 20:04:17:708] nigtrm: Count in the NL global area is now 2
+(140175472224832) [19-APR-2022 20:04:17:708] nigini: entry
+(140175472224832) [19-APR-2022 20:04:17:708] nigini: Count in the NL global area is now 3
+(140175472224832) [19-APR-2022 20:04:17:708] nigini: Count in NI gbl area now: 3
+(140175472224832) [19-APR-2022 20:04:17:708] nigini: exit
+(140175472224832) [19-APR-2022 20:04:17:708] niqname: Using nnfsn2a() to build connect descriptor for (possibly remote) database.
+(140175472224832) [19-APR-2022 20:04:17:708] nnfun2a: entry
+(140175472224832) [19-APR-2022 20:04:17:708] nlolgobj: entry
+(140175472224832) [19-APR-2022 20:04:17:708] nnfgrne: entry
+(140175472224832) [19-APR-2022 20:04:17:708] nnfgrne: Going though read path adapters
+(140175472224832) [19-APR-2022 20:04:17:708] nnfgrne: Switching to TNSNAMES adapter
+(140175472224832) [19-APR-2022 20:04:17:708] nnftrne: entry
+(140175472224832) [19-APR-2022 20:04:17:708] nnftrne: Original name: advdev7
+(140175472224832) [19-APR-2022 20:04:17:708] nnfttran: entry
+(140175472224832) [19-APR-2022 20:04:17:708] nncpdpt_dump_ptable: --- /opt/oracle/instantclient_21_4/network/admin/tnsnames.ora TABLE HAS THE FOLLOWING CONTENTS ---
+(140175472224832) [19-APR-2022 20:04:17:708] nncpdpt_dump_ptable: ADVPRD7 = (DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = 134.139.46.51)(PORT = 1521)) (CONNECT_DATA = (SERVER = DEDICATED) (SERVICE_NAME = ADVPRD7.campus.ad.csulb.edu)))
+(140175472224832) [19-APR-2022 20:04:17:708] nncpdpt_dump_ptable: ADVDEV7 = (DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = 134.139.46.52)(PORT = 1521)) (CONNECT_DATA = (SERVER = DEDICATED) (SERVICE_NAME = ADVDEV7.campus.ad.csulb.edu)))
+(140175472224832) [19-APR-2022 20:04:17:708] nncpdpt_dump_ptable: --- END /opt/oracle/instantclient_21_4/network/admin/tnsnames.ora TABLE ---
+(140175472224832) [19-APR-2022 20:04:17:708] nnfttran: exit
+(140175472224832) [19-APR-2022 20:04:17:708] nnftrne: Using tnsnames.ora address (DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = 134.139.46.52)(PORT = 1521)) (CONNECT_DATA = (SERVER = DEDICATED) (SERVICE_NAME = ADVDEV7.campus.ad.csulb.edu))) for name advdev7
+(140175472224832) [19-APR-2022 20:04:17:708] nnftrne: exit
+(140175472224832) [19-APR-2022 20:04:17:708] nnfgrne: exit
+(140175472224832) [19-APR-2022 20:04:17:708] nlolgserv: entry
+(140175472224832) [19-APR-2022 20:04:17:708] nnfggav: entry
+(140175472224832) [19-APR-2022 20:04:17:708] nnftgav: entry
+(140175472224832) [19-APR-2022 20:04:17:708] nnftgav: exit
+(140175472224832) [19-APR-2022 20:04:17:708] nnfgfrm: entry
+(140175472224832) [19-APR-2022 20:04:17:708] nnftfrm: entry
+(140175472224832) [19-APR-2022 20:04:17:708] nnftfrm: exit
+(140175472224832) [19-APR-2022 20:04:17:708] nnfgfrm: exit
+(140175472224832) [19-APR-2022 20:04:17:708] nlolgserv: exit
+(140175472224832) [19-APR-2022 20:04:17:708] nlolgobj: exit
+(140175472224832) [19-APR-2022 20:04:17:708] nlolfmem: entry
+(140175472224832) [19-APR-2022 20:04:17:708] nlolfmem: exit
+(140175472224832) [19-APR-2022 20:04:17:709] nigtrm: Count in the NI global area is now 2
+(140175472224832) [19-APR-2022 20:04:17:709] nigtrm: Count in the NL global area is now 2
+(140175472224832) [19-APR-2022 20:04:17:709] nigini: entry
+(140175472224832) [19-APR-2022 20:04:17:709] nigini: Count in the NL global area is now 3
+(140175472224832) [19-APR-2022 20:04:17:709] nigini: Count in NI gbl area now: 3
+(140175472224832) [19-APR-2022 20:04:17:709] nigini: exit
+(140175472224832) [19-APR-2022 20:04:17:709] niqname: Hst is already an NVstring.
+(140175472224832) [19-APR-2022 20:04:17:709] niqname: Inserting CID.
+(140175472224832) [19-APR-2022 20:04:17:709] nigtrm: Count in the NI global area is now 2
+(140175472224832) [19-APR-2022 20:04:17:709] nigtrm: Count in the NL global area is now 2
+(140175472224832) [19-APR-2022 20:04:17:709] nigini: entry
+(140175472224832) [19-APR-2022 20:04:17:709] nigini: Count in the NL global area is now 3
+(140175472224832) [19-APR-2022 20:04:17:709] nigini: Count in NI gbl area now: 3
+(140175472224832) [19-APR-2022 20:04:17:709] nigini: exit
+(140175472224832) [19-APR-2022 20:04:17:709] niqname: Hst is already an NVstring.
+(140175472224832) [19-APR-2022 20:04:17:709] niqname: Inserting CID.
+(140175472224832) [19-APR-2022 20:04:17:709] niotns: entry
+(140175472224832) [19-APR-2022 20:04:17:709] niotns: niotns: setting up interrupt handler...
+(140175472224832) [19-APR-2022 20:04:17:709] nigsui: entry
+(140175472224832) [19-APR-2022 20:04:17:709] nigsui: Set User Interrupt: hdl=1, prc=0x27dae5c0, ctx=0x188ff60.
+(140175472224832) [19-APR-2022 20:04:17:709] nigsui: exit (0)
+(140175472224832) [19-APR-2022 20:04:17:709] snsgblini: Max no of descriptors supported is 100000
+(140175472224832) [19-APR-2022 20:04:17:709] snsgblini: exit
+(140175472224832) [19-APR-2022 20:04:17:709] snldlldl: Couldn't load shared library nque
+(140175472224832) [19-APR-2022 20:04:17:709] snldlldl: Err: /opt/oracle/instantclient_21_4/lib/libnque.so: cannot open shared object file: No such file or directory
+(140175472224832) [19-APR-2022 20:04:17:709] snsbitini_ts: entry
+(140175472224832) [19-APR-2022 20:04:17:709] snsbitini_ts: normal exit
+(140175472224832) [19-APR-2022 20:04:17:709] snsbitini_ts: entry
+(140175472224832) [19-APR-2022 20:04:17:709] snsbitini_ts: normal exit
+(140175472224832) [19-APR-2022 20:04:17:709] niotns: Not enabling dead connection detection.
+(140175472224832) [19-APR-2022 20:04:17:709] niotns: Calling address: (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=134.139.46.52)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ADVDEV7.campus.ad.csulb.edu)(CID=(PROGRAM=sqlplus)(HOST=f2f82e8d90b7)(USER=root))))
+(140175472224832) [19-APR-2022 20:04:17:709] nsgettrans_bystring: entry
+(140175472224832) [19-APR-2022 20:04:17:709] nttbnd2addr: entry
+(140175472224832) [19-APR-2022 20:04:17:709] snlinGetAddrInfo: entry
+(140175472224832) [19-APR-2022 20:04:17:709] snlinGetAddrInfo: exit
+(140175472224832) [19-APR-2022 20:04:17:709] nttbnd2addr: using host IP address: 134.139.46.52
+(140175472224832) [19-APR-2022 20:04:17:709] snlinFreeAddrInfo: entry
+(140175472224832) [19-APR-2022 20:04:17:709] snlinFreeAddrInfo: exit
+(140175472224832) [19-APR-2022 20:04:17:709] nttbnd2addr: exit
+(140175472224832) [19-APR-2022 20:04:17:709] ntgettrans: entry
+(140175472224832) [19-APR-2022 20:04:17:709] ntgettrans: exit
+(140175472224832) [19-APR-2022 20:04:17:709] nsgettrans_bystring: exit
+(140175472224832) [19-APR-2022 20:04:17:709] nscall: entry
+(140175472224832) [19-APR-2022 20:04:17:710] nsmal: entry
+(140175472224832) [19-APR-2022 20:04:17:710] nsmal: 288 bytes at 0x18aa630
+(140175472224832) [19-APR-2022 20:04:17:710] nsmal: normal exit
+(140175472224832) [19-APR-2022 20:04:17:740] nscall_conid_cndo: entry
+(140175472224832) [19-APR-2022 20:04:17:740] snlinGetAddrInfo: entry
+(140175472224832) [19-APR-2022 20:04:17:740] snlinGetAddrInfo: exit
+(140175472224832) [19-APR-2022 20:04:17:740] snlinFreeAddrInfo: entry
+(140175472224832) [19-APR-2022 20:04:17:740] snlinFreeAddrInfo: exit
+(140175472224832) [19-APR-2022 20:04:17:740] nscall_conid_cndo: normal exit
+(140175472224832) [19-APR-2022 20:04:17:740] nscall: connection_id = 3Qhhu34oAkvgUwKB/ql5Mg==
+(140175472224832) [19-APR-2022 20:04:17:740] nscall: connecting...
+(140175472224832) [19-APR-2022 20:04:17:740] nlad_hp: entry
+(140175472224832) [19-APR-2022 20:04:17:740] nlad_hp:  processing other nodes
+(140175472224832) [19-APR-2022 20:04:17:740] nlad_hp: entry
+(140175472224832) [19-APR-2022 20:04:17:740] nlad_hp: address processing
+(140175472224832) [19-APR-2022 20:04:17:740] nlad_hp: Result: (ADDRESS=(PROTOCOL=TCP)(HOST=134.139.46.52)(PORT=1521))
+(140175472224832) [19-APR-2022 20:04:17:740] nlad_hp: entry
+(140175472224832) [19-APR-2022 20:04:17:740] nlad_hp: Result: (CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ADVDEV7.campus.ad.csulb.edu)(CID=(PROGRAM=sqlplus)(HOST=f2f82e8d90b7)(USER=root))(CONNECTION_ID=3Qhhu34oAkvgUwKB/ql5Mg==))
+(140175472224832) [19-APR-2022 20:04:17:740] nlad_hp: Result: (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=134.139.46.52)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ADVDEV7.campus.ad.csulb.edu)(CID=(PROGRAM=sqlplus)(HOST=f2f82e8d90b7)(USER=root))(CONNECTION_ID=3Qhhu34oAkvgUwKB/ql5Mg==)))
+(140175472224832) [19-APR-2022 20:04:17:740] nlad_expand_hst: Adding an ADDRESS_LIST binding
+(140175472224832) [19-APR-2022 20:04:17:740] nlad_expand_hst: Expanding 134.139.46.52
+(140175472224832) [19-APR-2022 20:04:17:740] snlinGetAddrInfo: entry
+(140175472224832) [19-APR-2022 20:04:17:740] snlinGetAddrInfo: exit
+(140175472224832) [19-APR-2022 20:04:17:740] nlad_expand_hst: Already an IP address
+(140175472224832) [19-APR-2022 20:04:17:740] snlinFreeAddrInfo: entry
+(140175472224832) [19-APR-2022 20:04:17:740] snlinFreeAddrInfo: exit
+(140175472224832) [19-APR-2022 20:04:17:740] nlad_expand_hst: Result: (DESCRIPTION=(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ADVDEV7.campus.ad.csulb.edu)(CID=(PROGRAM=sqlplus)(HOST=f2f82e8d90b7)(USER=root))(CONNECTION_ID=3Qhhu34oAkvgUwKB/ql5Mg==))(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=134.139.46.52)(PORT=1521))))
+(140175472224832) [19-APR-2022 20:04:17:740] nlad_pr: entry
+(140175472224832) [19-APR-2022 20:04:17:740] nlad_pr: description processing
+(140175472224832) [19-APR-2022 20:04:17:740] nlad_pr: entry
+(140175472224832) [19-APR-2022 20:04:17:740] nlad_pr: Result: (CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ADVDEV7.campus.ad.csulb.edu)(CID=(PROGRAM=sqlplus)(HOST=f2f82e8d90b7)(USER=root))(CONNECTION_ID=3Qhhu34oAkvgUwKB/ql5Mg==))
+(140175472224832) [19-APR-2022 20:04:17:740] nlad_pr: entry
+(140175472224832) [19-APR-2022 20:04:17:740] snlinGetAddrInfo: entry
+(140175472224832) [19-APR-2022 20:04:17:740] snlinGetAddrInfo: exit
+(140175472224832) [19-APR-2022 20:04:17:740] nlad_pr: hostname 134.139.46.52
+(140175472224832) [19-APR-2022 20:04:17:740] snlinFreeAddrInfo: entry
+(140175472224832) [19-APR-2022 20:04:17:740] snlinFreeAddrInfo: exit
+(140175472224832) [19-APR-2022 20:04:17:740] nlad_pr: Result: (ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=134.139.46.52)(PORT=1521)))
+(140175472224832) [19-APR-2022 20:04:17:740] nlad_aand: entry
+(140175472224832) [19-APR-2022 20:04:17:740] nlad_aand: entry
+(140175472224832) [19-APR-2022 20:04:17:740] nlad_ind: entry
+(140175472224832) [19-APR-2022 20:04:17:740] snlinGetAddrInfo: entry
+(140175472224832) [19-APR-2022 20:04:17:740] snlinGetAddrInfo: exit
+(140175472224832) [19-APR-2022 20:04:17:740] nlad_ind: hostname 134.139.46.52
+(140175472224832) [19-APR-2022 20:04:17:740] snlinFreeAddrInfo: entry
+(140175472224832) [19-APR-2022 20:04:17:740] snlinFreeAddrInfo: exit
+(140175472224832) [19-APR-2022 20:04:17:740] nlad_ind: exit
+(140175472224832) [19-APR-2022 20:04:17:741] nlad_pr: Result: (DESCRIPTION=(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ADVDEV7.campus.ad.csulb.edu)(CID=(PROGRAM=sqlplus)(HOST=f2f82e8d90b7)(USER=root))(CONNECTION_ID=3Qhhu34oAkvgUwKB/ql5Mg==))(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=134.139.46.52)(PORT=1521))))
+(140175472224832) [19-APR-2022 20:04:17:741] nladini: entry
+(140175472224832) [19-APR-2022 20:04:17:741] nladini: exit
+(140175472224832) [19-APR-2022 20:04:17:741] nladget: entry
+(140175472224832) [19-APR-2022 20:04:17:741] nladget: exit
+(140175472224832) [19-APR-2022 20:04:17:741] nsmal: entry
+(140175472224832) [19-APR-2022 20:04:17:741] nsmal: 238 bytes at 0x18ab8e0
+(140175472224832) [19-APR-2022 20:04:17:741] nsmal: normal exit
+(140175472224832) [19-APR-2022 20:04:17:741] nsc2addr: entry
+(140175472224832) [19-APR-2022 20:04:17:741] nsc2addr: (DESCRIPTION=(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ADVDEV7.campus.ad.csulb.edu)(CID=(PROGRAM=sqlplus)(HOST=f2f82e8d90b7)(USER=root))(CONNECTION_ID=3Qhhu34oAkvgUwKB/ql5Mg==))(ADDRESS=(PROTOCOL=TCP)(HOST=134.139.46.52)(PORT=1521)))
+(140175472224832) [19-APR-2022 20:04:17:741] nttbnd2addr: entry
+(140175472224832) [19-APR-2022 20:04:17:741] snlinGetAddrInfo: entry
+(140175472224832) [19-APR-2022 20:04:17:741] snlinGetAddrInfo: exit
+(140175472224832) [19-APR-2022 20:04:17:741] nttbnd2addr: using host IP address: 134.139.46.52
+(140175472224832) [19-APR-2022 20:04:17:741] snlinFreeAddrInfo: entry
+(140175472224832) [19-APR-2022 20:04:17:741] snlinFreeAddrInfo: exit
+(140175472224832) [19-APR-2022 20:04:17:741] nttbnd2addr: exit
+(140175472224832) [19-APR-2022 20:04:17:741] nsc2addr: normal exit
+(140175472224832) [19-APR-2022 20:04:17:741] nsopen: entry
+(140175472224832) [19-APR-2022 20:04:17:741] nsmal: entry
+(140175472224832) [19-APR-2022 20:04:17:741] nsmal: 2088 bytes at 0x18abfc0
+(140175472224832) [19-APR-2022 20:04:17:741] nsmal: normal exit
+(140175472224832) [19-APR-2022 20:04:17:741] nsopenmplx: entry
+(140175472224832) [19-APR-2022 20:04:17:741] nsmal: entry
+(140175472224832) [19-APR-2022 20:04:17:741] nsmal: 3664 bytes at 0x18ac7f0
+(140175472224832) [19-APR-2022 20:04:17:741] nsmal: normal exit
+(140175472224832) [19-APR-2022 20:04:17:741] snsbitini_ts: entry
+(140175472224832) [19-APR-2022 20:04:17:741] snsbitini_ts: normal exit
+(140175472224832) [19-APR-2022 20:04:17:741] nsiorini: entry
+(140175472224832) [19-APR-2022 20:04:17:741] nsbal: entry
+(140175472224832) [19-APR-2022 20:04:17:741] nsbgetfl: entry
+(140175472224832) [19-APR-2022 20:04:17:741] nsbgetfl: normal exit
+(140175472224832) [19-APR-2022 20:04:17:741] nsmal: entry
+(140175472224832) [19-APR-2022 20:04:17:741] nsmal: 168 bytes at 0x18ad860
+(140175472224832) [19-APR-2022 20:04:17:741] nsmal: normal exit
+(140175472224832) [19-APR-2022 20:04:17:741] nsbal: normal exit
+(140175472224832) [19-APR-2022 20:04:17:741] nsiorini: exit (0)
+(140175472224832) [19-APR-2022 20:04:17:741] nscpxget: entry
+(140175472224832) [19-APR-2022 20:04:17:741] snsbitts_ts: entry
+(140175472224832) [19-APR-2022 20:04:17:741] snsbitts_ts: acquired the bit
+(140175472224832) [19-APR-2022 20:04:17:741] snsbitts_ts: normal exit
+(140175472224832) [19-APR-2022 20:04:17:741] snsbitcl_ts: entry
+(140175472224832) [19-APR-2022 20:04:17:741] snsbitcl_ts: normal exit
+(140175472224832) [19-APR-2022 20:04:17:741] nscpxget: normal exit
+(140175472224832) [19-APR-2022 20:04:17:741] nsopenmplx: normal exit
+(140175472224832) [19-APR-2022 20:04:17:741] nsopen: opening transport...
+(140175472224832) [19-APR-2022 20:04:17:741] nttcon: entry
+(140175472224832) [19-APR-2022 20:04:17:741] nttcon: toc = 1
+(140175472224832) [19-APR-2022 20:04:17:741] nttcnp: entry
+(140175472224832) [19-APR-2022 20:04:17:741] nttcnp: creating a socket.
+(140175472224832) [19-APR-2022 20:04:17:741] nttcnp: exit
+(140175472224832) [19-APR-2022 20:04:17:741] nttcni: entry
+(140175472224832) [19-APR-2022 20:04:17:741] nttcni: Tcp conn timeout = 60000 (ms)
+(140175472224832) [19-APR-2022 20:04:17:741] nttcni: TCP Connect TO enabled. Switching to NB
+(140175472224832) [19-APR-2022 20:04:17:741] nttctl: entry
+(140175472224832) [19-APR-2022 20:04:17:741] nttctl: Setting connection into non-blocking mode
+(140175472224832) [19-APR-2022 20:04:17:741] nttcni: trying to connect to socket 4.
+(140175472224832) [19-APR-2022 20:04:17:742] ntt2err: entry
+(140175472224832) [19-APR-2022 20:04:17:742] ntt2err: exit
+(140175472224832) [19-APR-2022 20:04:17:742] ntctst: size of NTTEST list is 1 - not calling poll
+(140175472224832) [19-APR-2022 20:04:17:742] sntpoltst: No of conn to test 1, wait time 60
+(140175472224832) [19-APR-2022 20:04:17:742] sntpoltst: fd 4 need 1 readiness events
+(140175472224832) [19-APR-2022 20:04:17:762] sntpoltst: fd 4 has 1 readiness events
+(140175472224832) [19-APR-2022 20:04:17:762] sntpoltst: exit
+(140175472224832) [19-APR-2022 20:04:17:762] nttctl: entry
+(140175472224832) [19-APR-2022 20:04:17:762] nttctl: Clearing non-blocking mode
+(140175472224832) [19-APR-2022 20:04:17:762] snlinGetNameInfo: entry
+(140175472224832) [19-APR-2022 20:04:17:762] snlinGetNameInfo: exit
+(140175472224832) [19-APR-2022 20:04:17:762] nttcni: connected on source ipaddr 169.254.254.2 port 37020
+(140175472224832) [19-APR-2022 20:04:17:762] nttcni: exit
+(140175472224832) [19-APR-2022 20:04:17:762] nttctl: entry
+(140175472224832) [19-APR-2022 20:04:17:762] nttctl: Setting connection into nodelay mode
+(140175472224832) [19-APR-2022 20:04:17:762] nttctl: set TCP_NODELAY on 4
+(140175472224832) [19-APR-2022 20:04:17:762] nttcon: exit
+(140175472224832) [19-APR-2022 20:04:17:762] nsopen: transport is open
+(140175472224832) [19-APR-2022 20:04:17:762] nsoptions: entry
+(140175472224832) [19-APR-2022 20:04:17:762] nsoptions: lcl[0]=0x0, lcl[1]=0x102000, gbl[0]=0x0, gbl[1]=0xa41, cha=0x0
+(140175472224832) [19-APR-2022 20:04:17:762] nsoptions: lcl[0]=0xf4ffe9ff, lcl[1]=0x102000, gbl[0]=0xfeff, gbl[1]=0xc41
+(140175472224832) [19-APR-2022 20:04:17:762] nsoptions: normal exit
+(140175472224832) [19-APR-2022 20:04:17:762] nsnainit: entry
+(140175472224832) [19-APR-2022 20:04:17:762] nsnainit: call
+(140175472224832) [19-APR-2022 20:04:17:762] nsnadct: entry
+(140175472224832) [19-APR-2022 20:04:17:762] nsnadct: normal exit
+(140175472224832) [19-APR-2022 20:04:17:762] nsnasvnainfo: entry
+(140175472224832) [19-APR-2022 20:04:17:762] nsnasvnainfo: normal exit
+(140175472224832) [19-APR-2022 20:04:17:762] nainit: entry
+(140175472224832) [19-APR-2022 20:04:17:763] nagblini: entry
+(140175472224832) [19-APR-2022 20:04:17:763] nau_gin: entry
+(140175472224832) [19-APR-2022 20:04:17:763] nau_gparams: entry
+(140175472224832) [19-APR-2022 20:04:17:763] nam_gbp: Reading parameter "sqlnet.authentication_required" from parameter file
+(140175472224832) [19-APR-2022 20:04:17:763] nam_gbp: Parameter not found
+(140175472224832) [19-APR-2022 20:04:17:763] nau_gparams: Using default value "FALSE"
+(140175472224832) [19-APR-2022 20:04:17:763] nau_gslf: entry
+(140175472224832) [19-APR-2022 20:04:17:763] nam_gic: entry
+(140175472224832) [19-APR-2022 20:04:17:763] nam_gic: Counting # of items in "sqlnet.authentication_services" parameter
+(140175472224832) [19-APR-2022 20:04:17:763] nam_gic: Parameter not found
+(140175472224832) [19-APR-2022 20:04:17:763] nam_gic: Found 0 items
+(140175472224832) [19-APR-2022 20:04:17:763] nam_gic: exit
+(140175472224832) [19-APR-2022 20:04:17:763] nau_gslf: Using default value "all available adapters"
+(140175472224832) [19-APR-2022 20:04:17:763] nauss_set_state: entry
+(140175472224832) [19-APR-2022 20:04:17:763] nauss_set_state: exit
+(140175472224832) [19-APR-2022 20:04:17:763] nau_gslf: exit
+(140175472224832) [19-APR-2022 20:04:17:763] nau_gparams: exit
+(140175472224832) [19-APR-2022 20:04:17:763] nau_gin: exit
+(140175472224832) [19-APR-2022 20:04:17:763] nagblini: exit
+(140175472224832) [19-APR-2022 20:04:17:763] na_saveprot: entry
+(140175472224832) [19-APR-2022 20:04:17:763] na_saveprot: exit
+(140175472224832) [19-APR-2022 20:04:17:763] nacomin: entry
+(140175472224832) [19-APR-2022 20:04:17:763] nas_init: entry
+(140175472224832) [19-APR-2022 20:04:17:763] nas_init: exit
+(140175472224832) [19-APR-2022 20:04:17:763] nau_ini: entry
+(140175472224832) [19-APR-2022 20:04:17:763] naugcp_get_connect_parameters: entry
+(140175472224832) [19-APR-2022 20:04:17:763] nauss_set_state: entry
+(140175472224832) [19-APR-2022 20:04:17:763] nauss_set_state: exit
+(140175472224832) [19-APR-2022 20:04:17:763] naugcp_get_connect_parameters: exit
+(140175472224832) [19-APR-2022 20:04:17:763] nau_gfauth: entry
+(140175472224832) [19-APR-2022 20:04:17:763] nam_gbp: Reading parameter "sqlnet.fallback_authentication" from parameter file
+(140175472224832) [19-APR-2022 20:04:17:763] nam_gbp: Parameter not found
+(140175472224832) [19-APR-2022 20:04:17:763] nau_gfauth: Using default value "FALSE"
+(140175472224832) [19-APR-2022 20:04:17:763] nau_gfauth: exit
+(140175472224832) [19-APR-2022 20:04:17:763] nam_gbp: Reading parameter "SQLNET.ALLOW_WEAK_CRYPTO" from parameter file
+(140175472224832) [19-APR-2022 20:04:17:763] nam_gbp: Parameter not found
+(140175472224832) [19-APR-2022 20:04:17:763] nau_gettab: entry
+(140175472224832) [19-APR-2022 20:04:17:763] nau_gettab: using authentication adapter table "nautab"
+(140175472224832) [19-APR-2022 20:04:17:763] nau_gettab: nautab contains the following services:
+(140175472224832) [19-APR-2022 20:04:17:763] nau_gettab: 	KERBEROS5
+(140175472224832) [19-APR-2022 20:04:17:763] nau_gettab: 	RADIUS
+(140175472224832) [19-APR-2022 20:04:17:763] nau_gettab: 	KERBEROS5PRE
+(140175472224832) [19-APR-2022 20:04:17:763] nau_gettab: exit
+(140175472224832) [19-APR-2022 20:04:17:763] nau_sini: entry
+(140175472224832) [19-APR-2022 20:04:17:763] nau_sini: exit
+(140175472224832) [19-APR-2022 20:04:17:763] nau_ini: connection type: "standard"
+(140175472224832) [19-APR-2022 20:04:17:763] nau_ini: exit
+(140175472224832) [19-APR-2022 20:04:17:763] naeeinit: entry
+(140175472224832) [19-APR-2022 20:04:17:763] nam_gbp: Reading parameter "SQLNET.FIPS_140" from parameter file
+(140175472224832) [19-APR-2022 20:04:17:763] nam_gbp: Parameter not found
+(140175472224832) [19-APR-2022 20:04:17:763] nam_gbp: Reading parameter "SQLNET.ALLOW_WEAK_CRYPTO" from parameter file
+(140175472224832) [19-APR-2022 20:04:17:763] nam_gbp: Parameter not found
+(140175472224832) [19-APR-2022 20:04:17:763] naeconp: entry
+(140175472224832) [19-APR-2022 20:04:17:763] naeconp: Reading ENCRYPTION_CLIENT or CRYPTO_CHECKSUM_CLIENT parameter from connection string.
+(140175472224832) [19-APR-2022 20:04:17:763] nam_gnsp: Reading parameter "SQLNET.ENCRYPTION_CLIENT" from parameter file
+(140175472224832) [19-APR-2022 20:04:17:763] nam_gnsp: Parameter not found
+(140175472224832) [19-APR-2022 20:04:17:763] naequad: Using default value "ACCEPTED"
+(140175472224832) [19-APR-2022 20:04:17:763] nae_get_boolean_param_from_conn_string: entry
+(140175472224832) [19-APR-2022 20:04:17:763] nae_get_boolean_param_from_conn_string: Reading ENCRYPTION_CLIENT or CRYPTO_CHECKSUM_CLIENT parameter from connection string.
+(140175472224832) [19-APR-2022 20:04:17:763] nam_gbp: Reading parameter "SQLNET.IGNORE_ANO_ENCRYPTION_FOR_TCPS" from parameter file
+(140175472224832) [19-APR-2022 20:04:17:763] nam_gbp: Parameter not found
+(140175472224832) [19-APR-2022 20:04:17:763] nam_gic: entry
+(140175472224832) [19-APR-2022 20:04:17:763] nam_gic: Counting # of items in "SQLNET.ENCRYPTION_TYPES_CLIENT" parameter
+(140175472224832) [19-APR-2022 20:04:17:763] nam_gic: Parameter not found
+(140175472224832) [19-APR-2022 20:04:17:763] nam_gic: exit
+(140175472224832) [19-APR-2022 20:04:17:763] naesno: Using default value "all available algorithms"
+(140175472224832) [19-APR-2022 20:04:17:763] naeshow: entry
+(140175472224832) [19-APR-2022 20:04:17:763] naeshow: These are the encryption algorithms that the client will accept:
+(140175472224832) [19-APR-2022 20:04:17:910] naeshow: Choice 0: no algorithm; encryption inactive
+(140175472224832) [19-APR-2022 20:04:17:910] naeshow: Choice 1: 'AES256' (ID 17)
+(140175472224832) [19-APR-2022 20:04:17:910] naeshow: Choice 2: 'RC4_256' (ID 6)
+(140175472224832) [19-APR-2022 20:04:17:910] naeshow: Choice 3: 'AES192' (ID 16)
+(140175472224832) [19-APR-2022 20:04:17:910] naeshow: Choice 4: '3DES168' (ID 12)
+(140175472224832) [19-APR-2022 20:04:17:910] naeshow: Choice 5: 'AES128' (ID 15)
+(140175472224832) [19-APR-2022 20:04:17:910] naeshow: Choice 6: 'RC4_128' (ID 10)
+(140175472224832) [19-APR-2022 20:04:17:910] naeshow: Choice 7: '3DES112' (ID 11)
+(140175472224832) [19-APR-2022 20:04:17:910] naeshow: Choice 8: 'RC4_56' (ID 8)
+(140175472224832) [19-APR-2022 20:04:17:910] naeshow: Choice 9: 'DES' (ID 2)
+(140175472224832) [19-APR-2022 20:04:17:910] naeshow: Choice 10: 'RC4_40' (ID 1)
+(140175472224832) [19-APR-2022 20:04:17:910] naeshow: Choice 11: 'DES40' (ID 3)
+(140175472224832) [19-APR-2022 20:04:17:910] naeshow: exit
+(140175472224832) [19-APR-2022 20:04:17:910] naeeinit: exit
+(140175472224832) [19-APR-2022 20:04:17:910] naecinit: entry
+(140175472224832) [19-APR-2022 20:04:17:910] naeconp: entry
+(140175472224832) [19-APR-2022 20:04:17:910] naeconp: Reading ENCRYPTION_CLIENT or CRYPTO_CHECKSUM_CLIENT parameter from connection string.
+(140175472224832) [19-APR-2022 20:04:17:910] nam_gnsp: Reading parameter "SQLNET.CRYPTO_CHECKSUM_CLIENT" from parameter file
+(140175472224832) [19-APR-2022 20:04:17:910] nam_gnsp: Parameter not found
+(140175472224832) [19-APR-2022 20:04:17:910] naequad: Using default value "ACCEPTED"
+(140175472224832) [19-APR-2022 20:04:17:910] nam_gic: entry
+(140175472224832) [19-APR-2022 20:04:17:910] nam_gic: Counting # of items in "SQLNET.CRYPTO_CHECKSUM_TYPES_CLIENT" parameter
+(140175472224832) [19-APR-2022 20:04:17:910] nam_gic: Parameter not found
+(140175472224832) [19-APR-2022 20:04:17:910] nam_gic: exit
+(140175472224832) [19-APR-2022 20:04:17:910] naesno: Using default value "all available algorithms"
+(140175472224832) [19-APR-2022 20:04:17:910] naeshow: entry
+(140175472224832) [19-APR-2022 20:04:17:910] naeshow: These are the checksumming algorithms that the client will accept:
+(140175472224832) [19-APR-2022 20:04:17:910] naeshow: Choice 0: no algorithm; checksumming inactive
+(140175472224832) [19-APR-2022 20:04:17:910] naeshow: Choice 1: 'SHA1' (ID 3)
+(140175472224832) [19-APR-2022 20:04:17:910] naeshow: Choice 2: 'MD5' (ID 1)
+(140175472224832) [19-APR-2022 20:04:17:910] naeshow: Choice 3: 'SHA512' (ID 4)
+(140175472224832) [19-APR-2022 20:04:17:910] naeshow: Choice 4: 'SHA256' (ID 5)
+(140175472224832) [19-APR-2022 20:04:17:910] naeshow: Choice 5: 'SHA384' (ID 6)
+(140175472224832) [19-APR-2022 20:04:17:910] naeshow: exit
+(140175472224832) [19-APR-2022 20:04:17:910] naecinit: exit
+(140175472224832) [19-APR-2022 20:04:17:910] nainit: exit
+(140175472224832) [19-APR-2022 20:04:17:910] nagetctxinfo: entry
+(140175472224832) [19-APR-2022 20:04:17:910] nagetctxinfo: exit
+(140175472224832) [19-APR-2022 20:04:17:910] nsnainit: NS Connection version: 318
+(140175472224832) [19-APR-2022 20:04:17:962] nsnainit: inf->nsinfflg[0]: 0x41 inf->nsinfflg[1]: 0x41
+(140175472224832) [19-APR-2022 20:04:17:963] nsnainit: "or" info flags: 0x41	Translations follow:
+	native service(s) is (are) wanted
+
+(140175472224832) [19-APR-2022 20:04:17:963] nsnainit: "or" info flags: 0x41	Translations follow:
+	native service(s) is (are) wanted
+"and" info flags: 0x41	Translations follow:
+	native service(s) is (are) wanted
+
+(140175472224832) [19-APR-2022 20:04:17:963] nsnainit: normal exit
+(140175472224832) [19-APR-2022 20:04:17:963] snsbitts_ts: entry
+(140175472224832) [19-APR-2022 20:04:17:963] snsbitts_ts: acquired the bit
+(140175472224832) [19-APR-2022 20:04:17:963] snsbitts_ts: normal exit
+(140175472224832) [19-APR-2022 20:04:17:963] snsbitini_ts: entry
+(140175472224832) [19-APR-2022 20:04:17:963] snsbitini_ts: normal exit
+(140175472224832) [19-APR-2022 20:04:17:963] snsbitcl_ts: entry
+(140175472224832) [19-APR-2022 20:04:17:963] snsbitcl_ts: normal exit
+(140175472224832) [19-APR-2022 20:04:17:963] nsopen: global context check-in (to slot 0) complete
+(140175472224832) [19-APR-2022 20:04:17:963] nsopen: lcl[0]=0xf4ffe9ff, lcl[1]=0x102000, gbl[0]=0xfeff, gbl[1]=0xc41, tdu=2097152, sdu=8192
+(140175472224832) [19-APR-2022 20:04:17:963] nsfull_opn: entry
+(140175472224832) [19-APR-2022 20:04:17:963] nsfull_opn: cid=0, opcode=65, *bl=0, *what=0, uflgs=0x0, cflgs=0x0
+(140175472224832) [19-APR-2022 20:04:17:963] nsfull_opn: nsctx: state=7, flg=0x4001, mvd=0
+(140175472224832) [19-APR-2022 20:04:17:963] nsbal: entry
+(140175472224832) [19-APR-2022 20:04:17:963] nsbgetfl: entry
+(140175472224832) [19-APR-2022 20:04:17:963] nsbgetfl: normal exit
+(140175472224832) [19-APR-2022 20:04:17:963] nsmal: entry
+(140175472224832) [19-APR-2022 20:04:17:963] nsmal: 168 bytes at 0x18b4800
+(140175472224832) [19-APR-2022 20:04:17:963] nsmal: normal exit
+(140175472224832) [19-APR-2022 20:04:17:963] nsbal: normal exit
+(140175472224832) [19-APR-2022 20:04:17:963] nsbal: entry
+(140175472224832) [19-APR-2022 20:04:17:963] nsbgetfl: entry
+(140175472224832) [19-APR-2022 20:04:17:963] nsbgetfl: normal exit
+(140175472224832) [19-APR-2022 20:04:17:963] nsmal: entry
+(140175472224832) [19-APR-2022 20:04:17:963] nsmal: 168 bytes at 0x18b69a0
+(140175472224832) [19-APR-2022 20:04:17:963] nsmal: normal exit
+(140175472224832) [19-APR-2022 20:04:17:963] nsbal: normal exit
+(140175472224832) [19-APR-2022 20:04:17:963] nsfull_opn: normal exit
+(140175472224832) [19-APR-2022 20:04:17:963] nsopen: normal exit
+(140175472224832) [19-APR-2022 20:04:17:963] nsmfr: entry
+(140175472224832) [19-APR-2022 20:04:17:963] nsmfr: 238 bytes at 0x18ab8e0
+(140175472224832) [19-APR-2022 20:04:17:963] nsmfr: normal exit
+(140175472224832) [19-APR-2022 20:04:17:963] nsdo: entry
+(140175472224832) [19-APR-2022 20:04:17:963] nsdo: cid=0, opcode=67, *bl=237, *what=8, uflgs=0x0, cflgs=0x3
+(140175472224832) [19-APR-2022 20:04:17:963] snsbitts_ts: entry
+(140175472224832) [19-APR-2022 20:04:17:963] snsbitts_ts: acquired the bit
+(140175472224832) [19-APR-2022 20:04:17:964] snsbitts_ts: normal exit
+(140175472224832) [19-APR-2022 20:04:17:964] nsdo: rank=64, nsctxrnk=0
+(140175472224832) [19-APR-2022 20:04:17:964] snsbitcl_ts: entry
+(140175472224832) [19-APR-2022 20:04:17:964] snsbitcl_ts: normal exit
+(140175472224832) [19-APR-2022 20:04:17:964] nsdo: nsctx: state=14, flg=0x4005, mvd=0
+(140175472224832) [19-APR-2022 20:04:17:964] nsdo: gtn=10, gtc=10, ptn=10, ptc=8111
+(140175472224832) [19-APR-2022 20:04:17:964] nscon: entry
+(140175472224832) [19-APR-2022 20:04:17:964] nscon: doing connect handshake...
+(140175472224832) [19-APR-2022 20:04:17:964] nscon: connect id = 0xc28f
+(140175472224832) [19-APR-2022 20:04:17:964] nscon: sending NSPTCN packet
+(140175472224832) [19-APR-2022 20:04:17:964] nspsend: entry
+(140175472224832) [19-APR-2022 20:04:17:964] nspsend: connection_id = 3Qhhu34oAkvgUwKB/ql5Mg==
+(140175472224832) [19-APR-2022 20:04:17:964] nspsend: plen=74, type=1
+(140175472224832) [19-APR-2022 20:04:17:964] nttwr: entry
+(140175472224832) [19-APR-2022 20:04:17:964] nttwr: socket 4 had bytes written=74
+(140175472224832) [19-APR-2022 20:04:17:964] nttwr: exit
+(140175472224832) [19-APR-2022 20:04:17:964] nspsend: packet dump
+(140175472224832) [19-APR-2022 20:04:17:964] nspsend: 00 4A 00 00 01 00 00 00  |.J......|
+(140175472224832) [19-APR-2022 20:04:17:964] nspsend: 01 3E 01 2C 0C 41 20 00  |.>.,.A..|
+(140175472224832) [19-APR-2022 20:04:17:964] nspsend: FF FF 7F 08 00 00 01 00  |........|
+(140175472224832) [19-APR-2022 20:04:17:964] nspsend: 00 ED 00 4A 00 00 14 00  |...J....|
+(140175472224832) [19-APR-2022 20:04:17:964] nspsend: 41 41 C2 8F 00 00 00 00  |AA......|
+(140175472224832) [19-APR-2022 20:04:17:964] nspsend: 00 00 00 00 00 00 00 00  |........|
+(140175472224832) [19-APR-2022 20:04:17:964] nspsend: 00 00 00 00 00 00 00 00  |........|
+(140175472224832) [19-APR-2022 20:04:17:964] nspsend: 00 00 00 00 20 00 00 20  |........|
+(140175472224832) [19-APR-2022 20:04:17:964] nspsend: 00 00 00 00 00 00 00 00  |........|
+(140175472224832) [19-APR-2022 20:04:18:118] nspsend: 00 01                    |..      |
+(140175472224832) [19-APR-2022 20:04:18:118] nspsend: 74 bytes to transport
+(140175472224832) [19-APR-2022 20:04:18:118] nspsend: normal exit
+(140175472224832) [19-APR-2022 20:04:18:118] nscon: sending 237 bytes connect data
+(140175472224832) [19-APR-2022 20:04:18:118] nsdo: entry
+(140175472224832) [19-APR-2022 20:04:18:118] nsdo: cid=0, opcode=67, *bl=237, *what=1, uflgs=0x4002, cflgs=0x0
+(140175472224832) [19-APR-2022 20:04:18:119] nsdo: nsctx: state=2, flg=0x4005, mvd=0
+(140175472224832) [19-APR-2022 20:04:18:119] nsdo: gtn=10, gtc=10, ptn=10, ptc=431
+(140175472224832) [19-APR-2022 20:04:18:119] nsdo: 237 bytes to NS buffer
+(140175472224832) [19-APR-2022 20:04:18:119] nsdoacts: entry
+(140175472224832) [19-APR-2022 20:04:18:119] nsdofls: entry
+(140175472224832) [19-APR-2022 20:04:18:119] nsdofls: DATA flags: 0x0
+(140175472224832) [19-APR-2022 20:04:18:119] nsdofls: sending NSPTDA packet
+(140175472224832) [19-APR-2022 20:04:18:119] nspsend: entry
+(140175472224832) [19-APR-2022 20:04:18:119] nspsend: connection_id = 3Qhhu34oAkvgUwKB/ql5Mg==
+(140175472224832) [19-APR-2022 20:04:18:119] nspsend: plen=247, type=6
+(140175472224832) [19-APR-2022 20:04:18:119] nttwr: entry
+(140175472224832) [19-APR-2022 20:04:18:119] nttwr: socket 4 had bytes written=247
+(140175472224832) [19-APR-2022 20:04:18:119] nttwr: exit
+(140175472224832) [19-APR-2022 20:04:18:119] nspsend: packet dump
+(140175472224832) [19-APR-2022 20:04:18:119] nspsend: 00 F7 00 00 06 00 00 00  |........|
+(140175472224832) [19-APR-2022 20:04:18:119] nspsend: 00 00 28 44 45 53 43 52  |..(DESCR|
+(140175472224832) [19-APR-2022 20:04:18:119] nspsend: 49 50 54 49 4F 4E 3D 28  |IPTION=(|
+(140175472224832) [19-APR-2022 20:04:18:119] nspsend: 43 4F 4E 4E 45 43 54 5F  |CONNECT_|
+(140175472224832) [19-APR-2022 20:04:18:119] nspsend: 44 41 54 41 3D 28 53 45  |DATA=(SE|
+(140175472224832) [19-APR-2022 20:04:18:119] nspsend: 52 56 45 52 3D 44 45 44  |RVER=DED|
+(140175472224832) [19-APR-2022 20:04:18:119] nspsend: 49 43 41 54 45 44 29 28  |ICATED)(|
+(140175472224832) [19-APR-2022 20:04:18:119] nspsend: 53 45 52 56 49 43 45 5F  |SERVICE_|
+(140175472224832) [19-APR-2022 20:04:18:119] nspsend: 4E 41 4D 45 3D 41 44 56  |NAME=ADV|
+(140175472224832) [19-APR-2022 20:04:18:119] nspsend: 44 45 56 37 2E 63 61 6D  |DEV7.cam|
+(140175472224832) [19-APR-2022 20:04:18:119] nspsend: 70 75 73 2E 61 64 2E 63  |pus.ad.c|
+(140175472224832) [19-APR-2022 20:04:18:119] nspsend: 73 75 6C 62 2E 65 64 75  |sulb.edu|
+(140175472224832) [19-APR-2022 20:04:18:119] nspsend: 29 28 43 49 44 3D 28 50  |)(CID=(P|
+(140175472224832) [19-APR-2022 20:04:18:119] nspsend: 52 4F 47 52 41 4D 3D 73  |ROGRAM=s|
+(140175472224832) [19-APR-2022 20:04:18:119] nspsend: 71 6C 70 6C 75 73 29 28  |qlplus)(|
+(140175472224832) [19-APR-2022 20:04:18:119] nspsend: 48 4F 53 54 3D 66 32 66  |HOST=f2f|
+(140175472224832) [19-APR-2022 20:04:18:119] nspsend: 38 32 65 38 64 39 30 62  |82e8d90b|
+(140175472224832) [19-APR-2022 20:04:18:119] nspsend: 37 29 28 55 53 45 52 3D  |7)(USER=|
+(140175472224832) [19-APR-2022 20:04:18:119] nspsend: 72 6F 6F 74 29 29 28 43  |root))(C|
+(140175472224832) [19-APR-2022 20:04:18:119] nspsend: 4F 4E 4E 45 43 54 49 4F  |ONNECTIO|
+(140175472224832) [19-APR-2022 20:04:18:119] nspsend: 4E 5F 49 44 3D 33 51 68  |N_ID=3Qh|
+(140175472224832) [19-APR-2022 20:04:18:119] nspsend: 68 75 33 34 6F 41 6B 76  |hu34oAkv|
+(140175472224832) [19-APR-2022 20:04:18:119] nspsend: 67 55 77 4B 42 2F 71 6C  |gUwKB/ql|
+(140175472224832) [19-APR-2022 20:04:18:119] nspsend: 35 4D 67 3D 3D 29 29 28  |5Mg==))(|
+(140175472224832) [19-APR-2022 20:04:18:119] nspsend: 41 44 44 52 45 53 53 3D  |ADDRESS=|
+(140175472224832) [19-APR-2022 20:04:18:119] nspsend: 28 50 52 4F 54 4F 43 4F  |(PROTOCO|
+(140175472224832) [19-APR-2022 20:04:18:119] nspsend: 4C 3D 54 43 50 29 28 48  |L=TCP)(H|
+(140175472224832) [19-APR-2022 20:04:18:119] nspsend: 4F 53 54 3D 31 33 34 2E  |OST=134.|
+(140175472224832) [19-APR-2022 20:04:18:119] nspsend: 31 33 39 2E 34 36 2E 35  |139.46.5|
+(140175472224832) [19-APR-2022 20:04:18:119] nspsend: 32 29 28 50 4F 52 54 3D  |2)(PORT=|
+(140175472224832) [19-APR-2022 20:04:18:119] nspsend: 31 35 32 31 29 29 29     |1521))) |
+(140175472224832) [19-APR-2022 20:04:18:119] nspsend: 247 bytes to transport
+(140175472224832) [19-APR-2022 20:04:18:119] nspsend: normal exit
+(140175472224832) [19-APR-2022 20:04:18:119] nsdofls: exit (0)
+(140175472224832) [19-APR-2022 20:04:18:119] nsdoacts: flushing transport
+(140175472224832) [19-APR-2022 20:04:18:119] nttctl: entry
+(140175472224832) [19-APR-2022 20:04:18:119] nsdoacts: normal exit
+(140175472224832) [19-APR-2022 20:04:18:119] nsdo: normal exit
+(140175472224832) [19-APR-2022 20:04:18:119] nscon: exit (0)
+(140175472224832) [19-APR-2022 20:04:18:119] snsbitts_ts: entry
+(140175472224832) [19-APR-2022 20:04:18:119] snsbitts_ts: acquired the bit
+(140175472224832) [19-APR-2022 20:04:18:119] snsbitts_ts: normal exit
+(140175472224832) [19-APR-2022 20:04:18:119] nsdo: nsctxrnk=0
+(140175472224832) [19-APR-2022 20:04:18:119] snsbitcl_ts: entry
+(140175472224832) [19-APR-2022 20:04:18:119] snsbitcl_ts: normal exit
+(140175472224832) [19-APR-2022 20:04:18:119] nsdo: normal exit
+(140175472224832) [19-APR-2022 20:04:18:119] nsdo: entry
+(140175472224832) [19-APR-2022 20:04:18:119] nsdo: cid=0, opcode=68, *bl=5120, *what=9, uflgs=0x0, cflgs=0x3
+(140175472224832) [19-APR-2022 20:04:18:119] snsbitts_ts: entry
+(140175472224832) [19-APR-2022 20:04:18:119] snsbitts_ts: acquired the bit
+(140175472224832) [19-APR-2022 20:04:18:119] snsbitts_ts: normal exit
+(140175472224832) [19-APR-2022 20:04:18:119] nsdo: rank=64, nsctxrnk=0
+(140175472224832) [19-APR-2022 20:04:18:119] snsbitcl_ts: entry
+(140175472224832) [19-APR-2022 20:04:18:119] snsbitcl_ts: normal exit
+(140175472224832) [19-APR-2022 20:04:18:119] nsdo: nsctx: state=2, flg=0x4005, mvd=0
+(140175472224832) [19-APR-2022 20:04:18:119] nsdo: gtn=10, gtc=10, ptn=10, ptc=8111
+(140175472224832) [19-APR-2022 20:04:18:119] nscon: entry
+(140175472224832) [19-APR-2022 20:04:18:119] nscon: recving a packet
+(140175472224832) [19-APR-2022 20:04:18:119] nsprecv: entry
+(140175472224832) [19-APR-2022 20:04:18:119] nsprecv: connection_id = 3Qhhu34oAkvgUwKB/ql5Mg==
+(140175472224832) [19-APR-2022 20:04:18:119] nsprecv: reading from transport...
+(140175472224832) [19-APR-2022 20:04:18:119] nttrd: entry
+(140175472224832) [19-APR-2022 20:05:17:776] nttrd: exit
+(140175472224832) [19-APR-2022 20:05:17:776] ntt2err: entry
+(140175472224832) [19-APR-2022 20:05:17:776] ntt2err: Read unexpected EOF ERROR on 4
+(140175472224832) [19-APR-2022 20:05:17:776] ntt2err: exit
+(140175472224832) [19-APR-2022 20:05:17:776] nsprecv: error exit
+(140175472224832) [19-APR-2022 20:05:17:776] nserror: entry
+(140175472224832) [19-APR-2022 20:05:17:776] nserror: nsres: id=0, op=68, ns=12537, ns2=12560; nt[0]=507, nt[1]=0, nt[2]=0; ora[0]=0, ora[1]=0, ora[2]=0
+(140175472224832) [19-APR-2022 20:05:17:776] nscon: error exit
+(140175472224832) [19-APR-2022 20:05:17:776] snsbitts_ts: entry
+(140175472224832) [19-APR-2022 20:05:17:776] snsbitts_ts: acquired the bit
+(140175472224832) [19-APR-2022 20:05:17:776] snsbitts_ts: normal exit
+(140175472224832) [19-APR-2022 20:05:17:776] nsdo: nsctxrnk=0
+(140175472224832) [19-APR-2022 20:05:17:776] snsbitcl_ts: entry
+(140175472224832) [19-APR-2022 20:05:17:776] snsbitcl_ts: normal exit
+(140175472224832) [19-APR-2022 20:05:17:776] nsdo: error exit
+(140175472224832) [19-APR-2022 20:05:17:776] nscall: unexpected response
+(140175472224832) [19-APR-2022 20:05:17:776] nsclose: entry
+(140175472224832) [19-APR-2022 20:05:17:776] nsvntx_dei: entry
+(140175472224832) [19-APR-2022 20:05:17:776] nsvntx_dei: exit
+(140175472224832) [19-APR-2022 20:05:17:776] nstimarmed: entry
+(140175472224832) [19-APR-2022 20:05:17:776] nstimarmed: no timer allocated
+(140175472224832) [19-APR-2022 20:05:17:776] nstimarmed: normal exit
+(140175472224832) [19-APR-2022 20:05:17:776] nttctl: entry
+(140175472224832) [19-APR-2022 20:05:17:776] nttctl: entry
+(140175472224832) [19-APR-2022 20:05:17:800] snsbitts_ts: entry
+(140175472224832) [19-APR-2022 20:05:17:800] snsbitts_ts: acquired the bit
+(140175472224832) [19-APR-2022 20:05:17:800] snsbitts_ts: normal exit
+(140175472224832) [19-APR-2022 20:05:17:800] snsbitcl_ts: entry
+(140175472224832) [19-APR-2022 20:05:17:800] snsbitcl_ts: normal exit
+(140175472224832) [19-APR-2022 20:05:17:800] nsfull_cls: entry
+(140175472224832) [19-APR-2022 20:05:17:800] nsfull_cls: cid=0, opcode=65, *bl=0, *what=0, uflgs=0x0, cflgs=0x440
+(140175472224832) [19-APR-2022 20:05:17:800] nsfull_cls: nsctx: state=1, flg=0x4001, mvd=0
+(140175472224832) [19-APR-2022 20:05:17:800] nsbfr: entry
+(140175472224832) [19-APR-2022 20:05:17:800] nsbaddfl: entry
+(140175472224832) [19-APR-2022 20:05:17:800] nsbaddfl: normal exit
+(140175472224832) [19-APR-2022 20:05:17:800] nsbfr: normal exit
+(140175472224832) [19-APR-2022 20:05:17:800] nsbfr: entry
+(140175472224832) [19-APR-2022 20:05:17:800] nsbaddfl: entry
+(140175472224832) [19-APR-2022 20:05:17:801] nsbaddfl: normal exit
+(140175472224832) [19-APR-2022 20:05:17:801] nsbfr: normal exit
+(140175472224832) [19-APR-2022 20:05:17:801] nsfull_cls: normal exit
+(140175472224832) [19-APR-2022 20:05:17:801] nsiocancel: entry
+(140175472224832) [19-APR-2022 20:05:17:801] nsiofrrg: entry
+(140175472224832) [19-APR-2022 20:05:17:801] nsiofrrg: cur = 18ad7e0
+(140175472224832) [19-APR-2022 20:05:17:801] nsbfr: entry
+(140175472224832) [19-APR-2022 20:05:17:801] nsbaddfl: entry
+(140175472224832) [19-APR-2022 20:05:17:801] nsbaddfl: normal exit
+(140175472224832) [19-APR-2022 20:05:17:801] nsbfr: normal exit
+(140175472224832) [19-APR-2022 20:05:17:801] nsiofrrg: exit
+(140175472224832) [19-APR-2022 20:05:17:801] nsiocancel: exit
+(140175472224832) [19-APR-2022 20:05:17:801] nsclose: closing transport
+(140175472224832) [19-APR-2022 20:05:17:801] nttdisc: entry
+(140175472224832) [19-APR-2022 20:05:17:801] nttdisc: Closed socket 4
+(140175472224832) [19-APR-2022 20:05:17:801] nttdisc: exit
+(140175472224832) [19-APR-2022 20:05:17:801] snsbitts_ts: entry
+(140175472224832) [19-APR-2022 20:05:17:801] snsbitts_ts: acquired the bit
+(140175472224832) [19-APR-2022 20:05:17:801] snsbitts_ts: normal exit
+(140175472224832) [19-APR-2022 20:05:17:801] snsbittrm_ts: entry
+(140175472224832) [19-APR-2022 20:05:17:801] snsbittrm_ts: normal exit
+(140175472224832) [19-APR-2022 20:05:17:801] snsbitcl_ts: entry
+(140175472224832) [19-APR-2022 20:05:17:801] snsbitcl_ts: normal exit
+(140175472224832) [19-APR-2022 20:05:17:801] nsclose: global context check-out (from slot 0) complete
+(140175472224832) [19-APR-2022 20:05:17:801] nsnadisc: entry
+(140175472224832) [19-APR-2022 20:05:17:801] nadisc: entry
+(140175472224832) [19-APR-2022 20:05:17:801] nacomtm: entry
+(140175472224832) [19-APR-2022 20:05:17:801] nacompd: entry
+(140175472224832) [19-APR-2022 20:05:17:801] nacompd: exit
+(140175472224832) [19-APR-2022 20:05:17:801] nacompd: entry
+(140175472224832) [19-APR-2022 20:05:17:801] nacompd: exit
+(140175472224832) [19-APR-2022 20:05:17:801] nacomtm: exit
+(140175472224832) [19-APR-2022 20:05:17:801] nas_dis: entry
+(140175472224832) [19-APR-2022 20:05:17:801] nas_dis: exit
+(140175472224832) [19-APR-2022 20:05:17:801] nau_dis: entry
+(140175472224832) [19-APR-2022 20:05:17:801] nau_dis: exit
+(140175472224832) [19-APR-2022 20:05:17:801] naeetrm: entry
+(140175472224832) [19-APR-2022 20:05:17:801] naeetrm: exit
+(140175472224832) [19-APR-2022 20:05:17:956] naectrm: entry
+(140175472224832) [19-APR-2022 20:05:17:956] naectrm: exit
+(140175472224832) [19-APR-2022 20:05:17:956] nagbltrm: entry
+(140175472224832) [19-APR-2022 20:05:17:956] nau_gtm: entry
+(140175472224832) [19-APR-2022 20:05:17:956] nau_gtm: exit
+(140175472224832) [19-APR-2022 20:05:17:956] nagbltrm: exit
+(140175472224832) [19-APR-2022 20:05:17:956] nadisc: exit
+(140175472224832) [19-APR-2022 20:05:17:956] nsnadisc: normal exit
+(140175472224832) [19-APR-2022 20:05:17:956] snsbitts_ts: entry
+(140175472224832) [19-APR-2022 20:05:17:956] snsbitts_ts: acquired the bit
+(140175472224832) [19-APR-2022 20:05:17:956] snsbitts_ts: normal exit
+(140175472224832) [19-APR-2022 20:05:17:956] nsvntx_dei: entry
+(140175472224832) [19-APR-2022 20:05:17:956] nsvntx_dei: exit
+(140175472224832) [19-APR-2022 20:05:17:956] nsiocancel: entry
+(140175472224832) [19-APR-2022 20:05:17:956] nsiofrrg: entry
+(140175472224832) [19-APR-2022 20:05:17:956] nsiofrrg: exit
+(140175472224832) [19-APR-2022 20:05:17:956] nsiocancel: exit
+(140175472224832) [19-APR-2022 20:05:17:956] snsbittrm_ts: entry
+(140175472224832) [19-APR-2022 20:05:17:956] snsbittrm_ts: normal exit
+(140175472224832) [19-APR-2022 20:05:17:956] snsbitts_ts: entry
+(140175472224832) [19-APR-2022 20:05:17:956] snsbitts_ts: acquired the bit
+(140175472224832) [19-APR-2022 20:05:17:956] snsbitts_ts: normal exit
+(140175472224832) [19-APR-2022 20:05:17:956] snsbitcl_ts: entry
+(140175472224832) [19-APR-2022 20:05:17:956] snsbitcl_ts: normal exit
+(140175472224832) [19-APR-2022 20:05:17:956] nsmfr: entry
+(140175472224832) [19-APR-2022 20:05:17:956] nsmfr: 3664 bytes at 0x18ac7f0
+(140175472224832) [19-APR-2022 20:05:17:956] nsmfr: normal exit
+(140175472224832) [19-APR-2022 20:05:17:956] snsbitcl_ts: entry
+(140175472224832) [19-APR-2022 20:05:17:956] snsbitcl_ts: normal exit
+(140175472224832) [19-APR-2022 20:05:17:956] nsmfr: entry
+(140175472224832) [19-APR-2022 20:05:17:956] nsmfr: 2088 bytes at 0x18abfc0
+(140175472224832) [19-APR-2022 20:05:17:956] nsmfr: normal exit
+(140175472224832) [19-APR-2022 20:05:17:956] nsclose: normal exit
+(140175472224832) [19-APR-2022 20:05:17:956] nscall: connecting...
+(140175472224832) [19-APR-2022 20:05:17:956] nsclose: entry
+(140175472224832) [19-APR-2022 20:05:17:956] nsclose: normal exit
+(140175472224832) [19-APR-2022 20:05:17:956] nladget: entry
+(140175472224832) [19-APR-2022 20:05:17:956] nladget: exit
+(140175472224832) [19-APR-2022 20:05:17:956] nsmfr: entry
+(140175472224832) [19-APR-2022 20:05:17:956] nsmfr: 237 bytes at 0x18b8b40
+(140175472224832) [19-APR-2022 20:05:17:956] nsmfr: normal exit
+(140175472224832) [19-APR-2022 20:05:17:956] nsmfr: entry
+(140175472224832) [19-APR-2022 20:05:17:956] nsmfr: 288 bytes at 0x18aa630
+(140175472224832) [19-APR-2022 20:05:17:956] nsmfr: normal exit
+(140175472224832) [19-APR-2022 20:05:17:956] nladtrm: entry
+(140175472224832) [19-APR-2022 20:05:17:956] nladtrm: exit
+(140175472224832) [19-APR-2022 20:05:17:956] nscall: error exit
+(140175472224832) [19-APR-2022 20:05:17:956] nioqper:  error from nscall
+(140175472224832) [19-APR-2022 20:05:17:956] nioqper:    ns main err code: 12537
+(140175472224832) [19-APR-2022 20:05:17:956] nioqper:    ns (2)  err code: 12560
+(140175472224832) [19-APR-2022 20:05:17:956] nioqper:    nt main err code: 507
+(140175472224832) [19-APR-2022 20:05:17:956] nioqper:    nt (2)  err code: 0
+(140175472224832) [19-APR-2022 20:05:17:956] nioqper:    nt OS   err code: 0
+(140175472224832) [19-APR-2022 20:05:17:956] niomapnserror: entry
+(140175472224832) [19-APR-2022 20:05:17:956] niqme: entry
+(140175472224832) [19-APR-2022 20:05:17:956] niqme: reporting NS-12537 error as ORA-12537
+(140175472224832) [19-APR-2022 20:05:17:956] niqme: exit
+(140175472224832) [19-APR-2022 20:05:17:956] niomapnserror: exit
+(140175472224832) [19-APR-2022 20:05:17:956] niotns: Couldn't connect, returning 12537
+(140175472224832) [19-APR-2022 20:05:18:110] niotns: exit
+(140175472224832) [19-APR-2022 20:05:18:110] nigcui: entry
+(140175472224832) [19-APR-2022 20:05:18:110] nigcui: Clr User Interrupt: hdl=1, prc=0x27dae5c0, ctx=0x188ff60.
+(140175472224832) [19-APR-2022 20:05:18:110] nigcui: exit (0)
+(140175472224832) [19-APR-2022 20:05:18:110] snsbittrm_ts: entry
+(140175472224832) [19-APR-2022 20:05:18:110] snsbittrm_ts: normal exit
+(140175472224832) [19-APR-2022 20:05:18:110] snsbittrm_ts: entry
+(140175472224832) [19-APR-2022 20:05:18:110] snsbittrm_ts: normal exit
+(140175472224832) [19-APR-2022 20:05:18:110] nsbfrfl: entry
+(140175472224832) [19-APR-2022 20:05:18:110] nsbrfr: entry
+(140175472224832) [19-APR-2022 20:05:18:110] nsbrfr: nsbfs at 0x18b4800, data at 0x18b48b0.
+(140175472224832) [19-APR-2022 20:05:18:110] nsbrfr: normal exit
+(140175472224832) [19-APR-2022 20:05:18:110] nsbrfr: entry
+(140175472224832) [19-APR-2022 20:05:18:110] nsbrfr: nsbfs at 0x18b69a0, data at 0x18b6a50.
+(140175472224832) [19-APR-2022 20:05:18:110] nsbrfr: normal exit
+(140175472224832) [19-APR-2022 20:05:18:110] nsbrfr: entry
+(140175472224832) [19-APR-2022 20:05:18:110] nsbrfr: nsbfs at 0x18ad860, data at 0x18ad910.
+(140175472224832) [19-APR-2022 20:05:18:110] nsbrfr: normal exit
+(140175472224832) [19-APR-2022 20:05:18:110] nsbfrfl: normal exit
+(140175472224832) [19-APR-2022 20:05:18:110] nigtrm: Count in the NI global area is now 2
+(140175472224832) [19-APR-2022 20:05:18:110] nigtrm: Count in the NL global area is now 2
+(140175472224832) [19-APR-2022 20:05:23:127] nigcui: entry
+(140175472224832) [19-APR-2022 20:05:23:128] nigcui: Clr User Interrupt: hdl=0, prc=0x2a886800, ctx=0x17d62a0.
+(140175472224832) [19-APR-2022 20:05:23:128] nigcui: exit (0)

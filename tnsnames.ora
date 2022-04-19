@@ -1,0 +1,18 @@
+ADVDEV7 =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 134.139.46.52)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = ADVDEV7.campus.ad.csulb.edu)
+    )
+  )
+
+ADVPRD7 =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 134.139.46.51)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = ADVPRD7.campus.ad.csulb.edu)
+    )
+  )
+
